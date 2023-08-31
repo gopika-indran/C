@@ -1,0 +1,14 @@
+#include <stdio.h>
+void sum();
+void main()
+{
+    printf("going to calculate any two numbers\n");
+    sum();
+}
+void sum()
+{
+    int a,b;
+    printf("enter any 2 numbers:");
+    scanf("%d %d",&a,&b);
+    printf("the sum is %d",a+b);
+}

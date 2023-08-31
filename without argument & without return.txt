@@ -1,0 +1,9 @@
+#include <stdio.h>
+void main(){
+    printName();
+}
+void printName()
+{
+    printf("javapoint");
+    
+}
